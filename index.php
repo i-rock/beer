@@ -3,7 +3,9 @@
 $(function() {
 	$('#searchForm').submit(function(event) {
 		var input = $('#searchInput').val();
-		alert(input.length);
+		if(input.length > 0) {
+			
+		}
 		$('#searchInput').val('');
 		return false;
 	});
